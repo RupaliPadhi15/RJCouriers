@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+form input, form button {
+  padding: 8px;
+  margin-top: 5px;
+  width: 250px;
+}
+
+form button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background: #005fa3;
+}
+
+#track-result {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
